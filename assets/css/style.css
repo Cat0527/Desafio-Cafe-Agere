@@ -1,0 +1,54 @@
+/* empezar desde afuera el que lo contiene todo y luego empezar separando los elementos chicos, si veo algo desordenado ordenarlo */
+.box {
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 8vw;
+}
+
+.img1 {
+  width: 5vw;
+  height: 5vw;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.boton {
+  height: 3vw;
+  margin-right: 20px;
+}
+
+/*.header{
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+.header__img--logo img {
+    width: 40px;
+    height: 50px;
+}
+.nav__titulo{
+    font-family: $font1;
+    font-size: $size-title;
+    font-weight: $peso-titleN;
+    color: $color1;
+
+}
+.header__button{
+    display: flex;;
+    gap: 10px;
+    justify-content: flex-end;
+}*/
+
+/*# sourceMappingURL=style.css.map */
