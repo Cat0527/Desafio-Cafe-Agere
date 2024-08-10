@@ -1,15 +1,17 @@
 /* empezar desde afuera el que lo contiene todo y luego empezar separando los elementos chicos, si veo algo desordenado ordenarlo */
 .box {
-  background-color: brown;
+  background-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 8vw;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 60px;
 }
 
 .img1 {
-  width: 5vw;
-  height: 5vw;
+  width: 3vw;
+  height: 4vw;
 }
 
 .box1 {
@@ -22,33 +24,92 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-right: 80px;
+  gap: 20px;
 }
 
-.boton {
-  height: 3vw;
-  margin-right: 20px;
+.boton__login {
+  width: 10vw;
+  height: 2.5vw;
+  color: #989797;
+  font-family: "PT Mono";
+  background-color: #ffffff;
+  border-color: #A2A2A2;
+  border: 1px solid;
 }
 
-/*.header{
-    background-color: brown;
-    display: flex;
-    flex-direction: row;
+.boton__Register {
+  width: 10vw;
+  height: 2.5vw;
+  background-color: #4CA866;
+  font-family: "PT Mono";
+  color: #ffffff;
+  border: none;
 }
-.header__img--logo img {
-    width: 40px;
-    height: 50px;
-}
-.nav__titulo{
-    font-family: $font1;
-    font-size: $size-title;
-    font-weight: $peso-titleN;
-    color: $color1;
 
+/**/
+/*caja de numeros-text*/
+.container1 {
+  position: relative;
 }
-.header__button{
-    display: flex;;
-    gap: 10px;
-    justify-content: flex-end;
-}*/
+
+.box__imgText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 20vw;
+}
+
+.box__img {
+  width: 65vw;
+  height: 38vw;
+}
+
+.box__title {
+  margin-top: 40px;
+  font-size: 68px;
+  font-family: "PT Mono";
+  margin-left: 10vw;
+}
+
+.box__subtitle {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 10vw;
+}
+
+.box__number {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #4CA866;
+  margin-left: 30vw;
+  width: 36%;
+  height: 11vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.number {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+}
+
+.text__number {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-right: 20%;
+}
+
+.box__info {
+  padding: 10px 20px;
+}
+
+.box__sky {
+  width: 60vw;
+  height: 20vw;
+  background-color: #9d7fff;
+}
 
 /*# sourceMappingURL=style.css.map */

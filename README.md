@@ -14,11 +14,13 @@ para volver a compilar volvemos a colocar este comando: npx sass --watch assets/
 
 -git init 
 -git remote add origin "url de repositorio" 
--git status git add . 
+-git status 
+-git add . 
 -git commit -m "subiendo-archivos" 
 -git branch 
 -git branch -m master main 
--git branch git push origin main 
+-git branch 
+-git push origin main 
 -git status
 
 # Font
