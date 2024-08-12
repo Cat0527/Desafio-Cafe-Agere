@@ -1,0 +1,76 @@
+/*main*/
+/*primera part*/
+.container1{
+    position: relative;
+}
+.box__imgText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20vw;
+    
+}
+
+
+.box__number{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ffffff;
+    margin-left: 30vw;
+    width: 36%;
+    height: 11vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.box__info{
+    padding: 10px 20px;
+}
+
+.box__colors{
+    display: flex;
+    justify-content: center;
+}
+.box__yellow{
+    background-color: #eacb31;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 70px;
+}
+.box__orange{
+    background-color: #e4572e;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 40px;
+    bottom: 40px;
+}
+
+/*container1*/
+
+/*container2*/
+/*segunda part*/
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.box3__textInfo{
+    margin-left: 5vw;
+    margin-top: 4vw;
+    padding-right: 80px;
+}
+
+.box__sky{
+    width: 90vw;
+    height: 15vw;
+    background-color: #3c91e6;
+}
+/*container2*/

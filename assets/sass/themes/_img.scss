@@ -1,0 +1,53 @@
+/*nav*/
+.img1{
+    width: 3vw;
+    height: 4vw;
+}
+
+/*main*/
+
+/*container1*/
+
+.box__imgText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20vw;
+    
+}
+.box__img{
+    width: 65vw;
+    height: 38vw;
+}
+
+.img__arrow{
+    width: 60px;
+    height: 60px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+/*container1*/
+
+/*container2*/
+.img__maps{
+    width: 460px;
+    height: 220px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+}
+.img__coffe{
+    width: 100px;
+    height: 180px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 25px;
+}
+.img__expresso{
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+}
+/*container2*/
