@@ -36,3 +36,7 @@ para volver a compilar volvemos a colocar este comando: npx sass --watch assets/
   font-weight: 300;
   font-style: normal;
 }
+
+# Versión Bootstrap
+
+  npm i bootstrap@5.3.3 
